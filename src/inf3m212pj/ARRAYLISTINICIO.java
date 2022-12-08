@@ -51,7 +51,9 @@ public class ARRAYLISTINICIO {
         //Ordenação!
         Collections.sort(nomes);
         System.out.println("Ordenação: " + nomes.toString());
-
+        nomes.remove("Thiago");//removi o thiago
+        Collections.sort(nomes);//to sorteando
+        System.out.println("Nomes sem o Thiago: " + nomes.toString());
     }//fim main
 
 }// fim programa
